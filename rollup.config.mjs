@@ -3,7 +3,7 @@ import esbuild from 'rollup-plugin-esbuild';
 import json from '@rollup/plugin-json';
 
 // Always provide both CJS and ES exports
-const sharedRollupConfig = [
+const rollupconfig = [
   {
     input: `ts_src/index.ts`,
     plugins: [esbuild(), json()],
@@ -19,16 +19,9 @@ const sharedRollupConfig = [
       },
     ],
     external: [
-      'big.js',
-      'bitcoinjs-lib',
-      'bn.js',
-      'coinselect',
-      'ethers',
-      'graphql-request',
-      'graphql',
-      'react-dom',
-      'react-router-dom',
-      'react',
+      'create-hash',
+      'pbkdf2',
+      'randombytes',
     ],
   },
   {
@@ -48,4 +41,4 @@ const sharedRollupConfig = [
   },
 ];
 
-export default sharedRollupConfig;
+export default rollupconfig;

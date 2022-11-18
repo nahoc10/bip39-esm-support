@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    "target": "es2017",
-    "module": "commonjs",
+    "target": "ESNext",
+    "module": "ESNext",
     "outDir": "./src",
     "declaration": true,
+    "moduleResolution": "Node",
     "declarationDir": "ts_src/types",
     "rootDir": "./ts_src",
     "types": [
