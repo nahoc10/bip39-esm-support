@@ -14,9 +14,9 @@
     "build": "rollup -c"
   },
   "dependencies": {
-    "create-hash": "1.2.0",
-    "pbkdf2": "3.1.2",
-    "randombytes": "2.1.0"
+    "create-hash": "1.1.0",
+    "pbkdf2": "3.0.9",
+    "randombytes": "2.0.1"
   },
   "devDependencies": {
     "@rollup/plugin-json": "5.0.1",
