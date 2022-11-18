@@ -4,7 +4,7 @@
     "module": "commonjs",
     "outDir": "./src",
     "declaration": true,
-    "declarationDir": "./types",
+    "declarationDir": "ts_src/types",
     "rootDir": "./ts_src",
     "types": [
       "node"
